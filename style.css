@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+ 
+* {
+    margin: 0;
+}
+.fuente {
+    font-family: 'Josefin Sans', sans-serif;    
+    font-size: 26px;
+}
+
+/* Inicio Header*/
+.header {
+    background-color: beige;
+    border-top: 2px solid black;
+    justify-content: center;    
+}
+
+/* Media Query Desktop */
+@media screen and (min-width: 1100px) {
+     .menu-nav {
+        position: relative; left: -250px;
+    }
+    .buscar-nav {
+        position: relative; left: 190px;
+    }
+}
+
+
+.logo-cabecera {
+    position: relative;
+    top: -5px; 
+    left: 0;
+    width: 330px; 
+    border-radius: 10px;
+}
+.inicio {
+    position: absolute; top: 80px; left: 500px;
+    font-family: 'Josefin Sans', sans-serif;    
+    font-size: 26px;
+    text-decoration: none;
+}
+.inicio:hover {
+    background-color: rgb(182, 203, 204);
+    padding: 2px;
+    border-radius: 5px;
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+.productos {
+    text-decoration: none;
+    position: absolute; top: 80px; left: 600px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 26px;
+    color: black;
+}
+.productos:hover {
+    background-color: rgb(182, 203, 204);
+    padding: 2px;
+    border-radius: 5px;
+    transition: all 0.5s;
+    transform: scale(1.1);
+
+}
+.envios {
+    text-decoration: none;
+    position: absolute; top: 80px; left: 750px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 26px;
+    color: black;
+}
+.envios:hover {
+    background-color: rgb(182, 203, 204);
+    padding: 2px;
+    border-radius: 5px;
+    transition: all 0.5s;
+    transform: scale(1.1);
+
+}
+.contacto {
+    text-decoration: none;
+    position: absolute; top: 80px; left: 850px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 26px;
+    color: black;
+}
+.contacto:hover {
+    background-color: rgb(182, 203, 204);
+    padding: 2px;
+    border-radius: 5px;
+    transition: all 0.5s;
+    transform: scale(1.1);
+
+}
+
+.ingreso-buscador {
+    position: absolute; top: 85px; left: 1000px;
+    width: 300px;
+    height: auto;
+}
+
+.carrito {
+    position: relative; left: 230px;
+    width: 50px;
+}
+
+/* Fin Header */
+
+/* Inicio Sección 1 (Carrousel)*/
+
+.seccion1 {
+    background-color: gainsboro;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.carrousel1 {
+    width: 262px;
+}
+.carrousel1:hover {
+    transition: all 0.5s;
+    transform: scale(1.05);
+}
+.carrousel2 {
+    width: 262px;
+}
+.carrousel2:hover {
+    transition: all 0.5s;
+    transform: scale(1.05);
+}
+
+.carrousel3 {
+    width: 262px;
+}
+.carrousel3:hover {
+    transition: all 0.5s;
+    transform: scale(1.05);
+}
+
+.carrousel4 {
+    width: 262px;
+}
+.carrousel4:hover {
+    transition: all 0.5s;
+    transform: scale(1.05);
+}
+
+.carrousel0 {
+    width: 262px;
+}
+.carrousel0:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+
+/* Fin Sección 1 (carrousel) */
+
+/* Inicio Sección 2 (productos) */
+.seccion2 {
+    background-color: beige;
+    border-top: 2px solid black;
+}
+.vela-bowie {
+    width: 350px;
+    border-radius: 10px;
+
+} 
+.vela-bowie:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+}  
+.descripcion-bowie {
+    font-family: 'Josefin Sans', sans-serif;    
+    font-size: 18px;
+    line-height: 25px;
+    color: black;
+    position: absolute; top: 600px; left: 360px;
+}
+.vela-joplin {
+    width: 350px;
+    position: absolute; left: 700px;
+    border-radius: 10px;
+}
+.vela-joplin:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+.vela-joplin-productos {
+    width: 340px;
+    position: absolute; left: 700px;
+    border-radius: 10px;
+}
+.vela-joplin-productos:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+.descripcion-joplin {
+    font-family: 'Josefin Sans', sans-serif;    
+    font-size: 18px;
+    line-height: 25px;
+    color: black;
+    position: absolute; top: 600px; left: 1050px;
+}
+
+.descripcion-bowie-productos {
+    font-family: 'Josefin Sans', sans-serif;    
+    font-size: 18px;
+    line-height: 25px;
+    color: black;
+    position: absolute; top: 300px; left: 350px;
+ 
+}
+.descripcion-joplin-productos {
+    font-family: 'Josefin Sans', sans-serif;    
+    font-size: 18px;
+    line-height: 25px;
+    color: black;
+    position: absolute; top: 300px; left: 1040px;
+
+}
+.vela-aretha {
+    width: 350px;
+    border-radius: 10px;
+}
+.vela-aretha:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+}  
+.descripcion-aretha {
+    font-family: 'Josefin Sans', sans-serif;    
+    font-size: 18px;
+    line-height: 25px;
+    color: black;
+    position: absolute; top: 1000px; left: 360px;
+}
+.descripcion-aretha-productos {
+    font-family: 'Josefin Sans', sans-serif;    
+    font-size: 18px;
+    line-height: 25px;
+    color: black;
+    position: absolute; top: 500px; left: 340px;
+}
+
+.difusor {
+    width: 350px;
+    border-radius: 10px;
+    position: absolute; top: -45px; left: 340px;
+}
+.difusor:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+.descripcion-difusor {
+    font-family: 'Josefin Sans', sans-serif;    
+    font-size: 18px;
+    line-height: 25px;
+    color: black;
+    position: absolute; top: -20px; left: 700px;
+}
+.difusor-productos {
+    width: 350px;
+    border-radius: 10px;
+    position: absolute; top: 400px; left: 680px;
+}
+.descripcion-difusor-productos {
+    font-family: 'Josefin Sans', sans-serif;    
+    font-size: 18px;
+    line-height: 25px;
+    color: black;
+    position: absolute; top: 500px; left: 200px;
+}
+
+/* Fin Sección 2 (productos) */
+
+/* Inicio Footer */
+footer {
+   background-color: grey;
+   padding: 70px;
+   border-top: 2px solid black;
+}
+
+.newsletter {
+    font-family: 'Josefin Sans', sans-serif;    
+    font-size: 20px;
+    position: absolute; top: 1470px; left: 100px;
+}
+.redes-sociales {
+    font-family: 'Josefin Sans', sans-serif;    
+    font-size: 20px;
+    position: absolute; top: 1470px; left: 590px;
+}
+.logo-face {
+    width: 50px;
+    position: absolute;  top: 1505px; left: 565px;
+}
+.logo-insta {
+    width: 40px;
+    position: absolute; top: 1511px; left: 635px;
+}
+.logo-twit {
+    width: 40px;
+    position: absolute; top: 1511px; left: 700px;
+}
+
+.contactanos {
+    color: black;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;    
+    font-size: 20px;
+    position: absolute; top: 1470px; left: 1100px;
+}
+
+.logo-what {
+    width: 48px;
+    position: absolute; top: 1505px; left: 1135px;
+}
+.logo-what-fixed {
+    width: 60px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.logo-what-fixed:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+
+}
+
+/* Footer Productos */
+.footer-productos {
+    margin-top: 40px;
+}
+.newsletter-productos {
+    font-family: 'Josefin Sans', sans-serif;    
+    font-size: 20px;
+    position: absolute; top: 630px; left: 100px;
+}
+.redes-sociales-productos {
+    font-family: 'Josefin Sans', sans-serif;    
+    font-size: 20px;
+    position: absolute; top: 630px; left: 590px;
+}
+.logo-face-productos {
+    width: 50px;
+    position: absolute;  top: 665px; left: 565px;
+}
+.logo-insta-productos {
+    width: 40px;
+    position: absolute; top: 670px; left: 635px;
+}
+.logo-twit-productos {
+    width: 40px;
+    position: absolute; top: 670px; left: 700px;
+}
+
+.contactanos-productos {
+    color: black;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;    
+    font-size: 20px;
+    position: absolute; top: 630px; left: 1100px;
+}
+.logo-what-productos {
+    width: 50px;
+    position: absolute; top: 670px; left: 1135px;
+}
+    
+
+/* Fin Footer */
+

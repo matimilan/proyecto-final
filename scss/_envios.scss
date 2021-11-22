@@ -1,0 +1,64 @@
+
+.main-envios {
+    font-family: $fuente;
+    background-color: nth($colores, 2);
+    padding-top: 10px;
+    border-top: 2px solid black;
+        .titulo-main {
+            h2 {
+              font-size: 45px;  
+              padding: 20px;
+              padding-bottom: 10px;
+            }
+            h2 {
+                font-size: 25px;
+                padding: 5px;
+            }
+            h3 {
+                font-weight: bold;
+                font-size: 20px;
+                padding: 10px;
+            }
+            text-align: center;
+        }
+        .texto-main {
+            font-size: 20px;
+            padding: 20px;
+            line-height : 40px;
+        }
+
+}
+
+.footer-envios {
+    background-color: nth($colores, 4);
+    //padding: 25px;
+    font-family: $fuente;
+    font-size: 20px;
+    text-align: center;
+    border-top: 2px solid black;
+    .logo-face {
+        width: 50px;
+    }
+    .link-insta {
+        text-decoration: none;
+        .logo-instagram {
+             width: 45px;
+        }
+    }    
+    .logo-twit2 {
+        width: 40px;
+    }
+    .logo-what {
+        width: 50px;
+        align-items: center;
+    }
+    .copyright {
+        justify-content: center;
+        border-top: 2px solid black;
+        margin-top: 20px;
+        background-color: nth($colores, 1);
+        font-size: 16px;
+
+    }
+        
+}

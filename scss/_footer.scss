@@ -1,0 +1,44 @@
+.footer {
+    background-color: nth($colores, 4);
+    //padding: 25px;
+    font-family: $fuente;
+    font-size: 20px;
+    text-align: center;
+    border-top: 2px solid black;
+    .logo-face {
+        width: 50px;
+    }
+    .link-insta {
+        text-decoration: none;
+        .logo-instagram {
+             width: 45px;
+        }
+    }    
+    .logo-twit2 {
+        width: 40px;
+    }
+    .logo-what {
+        width: 50px;
+        align-items: center;
+    }
+    .copyright {
+        justify-content: center;
+        border-top: 2px solid black;
+        margin-top: 20px;
+        background-color: nth($colores, 1);
+        font-size: 16px;
+
+    }
+        
+}
+.logo-what-fixed {
+    width: 60px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.logo-what-fixed:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+
+}

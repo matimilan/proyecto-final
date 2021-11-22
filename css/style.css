@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+.seccion-uno {
+  border-top: 2px solid black;
+}
+.seccion-uno .carousel-inner {
+  height: 200px;
+}
+
+/* Variables */
+.main-envios {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: sandybrown;
+  padding-top: 10px;
+  border-top: 2px solid black;
+}
+.main-envios .titulo-main {
+  text-align: center;
+}
+.main-envios .titulo-main h2 {
+  font-size: 45px;
+  padding: 20px;
+  padding-bottom: 10px;
+}
+.main-envios .titulo-main h2 {
+  font-size: 25px;
+  padding: 5px;
+}
+.main-envios .titulo-main h3 {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+}
+.main-envios .texto-main {
+  font-size: 20px;
+  padding: 20px;
+  line-height: 40px;
+}
+
+.footer-envios {
+  background-color: grey;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  border-top: 2px solid black;
+}
+.footer-envios .logo-face {
+  width: 50px;
+}
+.footer-envios .link-insta {
+  text-decoration: none;
+}
+.footer-envios .link-insta .logo-instagram {
+  width: 45px;
+}
+.footer-envios .logo-twit2 {
+  width: 40px;
+}
+.footer-envios .logo-what {
+  width: 50px;
+  align-items: center;
+}
+.footer-envios .copyright {
+  justify-content: center;
+  border-top: 2px solid black;
+  margin-top: 20px;
+  background-color: beige;
+  font-size: 16px;
+}
+
+.main-contacto .section-main-contacto {
+  width: 45%;
+  justify-content: center;
+}
+.main-contacto .section-main-contacto .boton-envio {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: grey;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  border-top: 2px solid black;
+}
+.footer .logo-face {
+  width: 50px;
+}
+.footer .link-insta {
+  text-decoration: none;
+}
+.footer .link-insta .logo-instagram {
+  width: 45px;
+}
+.footer .logo-twit2 {
+  width: 40px;
+}
+.footer .logo-what {
+  width: 50px;
+  align-items: center;
+}
+.footer .copyright {
+  justify-content: center;
+  border-top: 2px solid black;
+  margin-top: 20px;
+  background-color: beige;
+  font-size: 16px;
+}
+
+.logo-what-fixed {
+  width: 60px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.logo-what-fixed:hover {
+  transition: all 0.5s;
+  transform: scale(1.1);
+}
+
+.main-productos {
+  background-color: sandybrown;
+  padding-top: 20px;
+  border-top: 2px solid black;
+}
+
+.vela-bowie, .vela-joplin-productos, .vela-aretha, .difusor-productos {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.vela-bowie:hover {
+  transition: all 0.5s;
+  transform: scale(1.1);
+}
+
+.vela-joplin-productos:hover {
+  transition: all 0.5s;
+  transform: scale(1.1);
+}
+
+.vela-aretha:hover {
+  transition: all 0.5s;
+  transform: scale(1.1);
+}
+
+.difusor-productos:hover {
+  transition: all 0.5s;
+  transform: scale(1.1);
+}
+
+.descripcion-bowie-productos, .descripcion-joplin-productos, .descripcion-aretha-productos, .descripcion-difusor-productos {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.main-contacto {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: sandybrown;
+  padding: 20px;
+  border-top: 2px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 0;
+  visibility: hidden;
+}
+
+.logo-cabecera {
+  position: relative;
+  top: -5px;
+  left: 0;
+  width: 330px;
+  border-radius: 10px;
+}
+
+.fuente {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 26px;
+}
+
+.header {
+  background-color: beige;
+  border-top: 2px solid black;
+}
+
+.menu-nav {
+  position: relative;
+  left: -250px;
+}
+
+.buscar-nav {
+  position: relative;
+  left: 190px;
+}
+
+.carrito {
+  position: relative;
+  left: 230px;
+  width: 50px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/*# sourceMappingURL=style.css.map */

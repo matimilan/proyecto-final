@@ -1,0 +1,13 @@
+   
+.main-contacto {
+    @extend %main-gral;
+        .section-main-contacto {
+            width: 45%;
+            justify-content: center;
+            .boton-envio {
+                display: flex;
+                justify-content: center;
+                margin-top: 10px;
+            }
+        }
+} 

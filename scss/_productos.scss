@@ -1,0 +1,35 @@
+.main-productos {
+    background-color: nth($colores, 2);
+    padding-top: 20px;
+    border-top: 2px solid black;
+}
+.vela-bowie, .vela-joplin-productos, .vela-aretha, .difusor-productos{
+    width: 100%;
+    border-radius: 10px;
+
+}
+.vela-bowie:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+
+.vela-joplin-productos:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+
+.vela-aretha:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+
+.difusor-productos:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+
+.descripcion-bowie-productos, .descripcion-joplin-productos, .descripcion-aretha-productos, .descripcion-difusor-productos {
+    font-family: $fuente;
+}
+
+    

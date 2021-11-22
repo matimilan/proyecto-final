@@ -1,0 +1,9 @@
+
+%main-gral {
+    font-family: $fuente;
+    background-color: nth($colores, 2);
+    padding: 20px;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: center;
+}

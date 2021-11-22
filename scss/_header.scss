@@ -1,0 +1,31 @@
+h1 {
+    font-size: 0;
+    visibility: hidden;
+}
+
+.logo-cabecera {
+    position: relative;
+    top: -5px; 
+    left: 0;
+    width: 330px; 
+    border-radius: 10px;
+}
+.fuente {
+    font-family: $fuente;
+    font-size: 26px;
+}
+.header {
+    background-color: nth($colores, 1);
+    border-top: 2px solid black;
+}
+
+.menu-nav {
+    position: relative; left: -250px;
+}
+.buscar-nav {
+    position: relative; left: 190px;
+}
+.carrito {
+    position: relative; left: 230px;
+    width: 50px;
+}
